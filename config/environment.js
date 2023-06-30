@@ -44,5 +44,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.DUMMY_ACCESS_TOKEN = 'paste your dummy access token here';
+
   return ENV;
 };
